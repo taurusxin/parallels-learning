@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 project(hello_omp)
 
-find_package(OpenMP)
+find_package(OpenMP REQUIRED)
 
 set(CMAKE_CXX_STANDARD 17)
 
